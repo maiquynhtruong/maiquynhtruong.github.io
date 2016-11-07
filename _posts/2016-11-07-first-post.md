@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "My first post!"
+date:   2016-11-07 12:40:05 -0500
 ---
 
 h1. {{ page.title }}
