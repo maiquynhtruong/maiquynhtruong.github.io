@@ -16,13 +16,13 @@
 title: Mai Truong
 email: maitruong2801@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Personal website of Mai Truong
+  2016
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  maiquynhtruong
 linkedIn_username: maiquynhtruong
-github_link: github.com/maiquynhtruong
+codeforces_username: maitruongquynh
 # Build settings
 markdown: kramdown
 theme: minima

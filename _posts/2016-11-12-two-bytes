@@ -1,0 +1,25 @@
+This afternoon I was given a problem that is very interesting. Suppose two device needs to communicate over a network. Device A wants to send to device B a floating point number (for eg: 12.3). Since the network bandwidth is limited, we want to use as least bytes as possible. Can you send that number over the network using only 2 bytes? The constraint assures that the number is less than or equal to 255 (or 2^8 - 1), and we only need two digits after the decimal point.
+
+We know that floating point number has a minimum length of 32 bits and 64 bits for double precision (that's 4 bytes and 8 bytes respectively). 
+
+The way to do it is to break that floating point number into two parts, integer part and decimal part. Since the maximum integer number is 255, we can represent that number using only 8 bits (2^8-1). Because we only need 2 digits after the decimal place, the maximum number in the decimal place is 99, which can be easily represented with only 8 bits. So one of the solution is to break 'em up and merge them back again once they reach device B.
+
+Let's take an example of 123.456789. According to our solution, we need to get 123 and 46 and convert them into binary form. Converting is easy, but breaking up requires some thinking. To get the integer part of a double number, we can cast that double number to be an int. So the code goes like so:
+
+double number = 123.456789;
+int integer = (int) number;
+
+To make an integer out of the decimal part, we need to get the decimal part first. To do that is easy, subtract the integer part from the original number. We now have 0.456789. Since we only need 2 digits after the decimal place, we can multiply that by 100 to move the dot by 2 places to the right. We also want to round up our number. The way to do that is to add 0.5 to the product and cast the result to an int (if the decimal part of the product is less than 0.5, adding 0.5 will not affect the number when we cast, if it is more than 0.5, adding 0.5 will bring the sum to be greater than 1, raising our number by 1 when we cast). The code goes like so:
+
+int decimal = (int) ((number - integer) * 100) + 0.5);
+
+With the current example, our integer would be 123 for sure. Then number - integer will be 0.456789, and (number - integer) * 100) = 45.6789. Since 0.6789 > 0.5, adding 0.5 to our product will yield 46.1789. Then when we cast this number to an int, it results in 46. We have rounded up our original number. For the opposite situation, say we have 45.123, adding 0.5 to it would result in 45.623, which once we cast, would be 45, and we have rounded down.
+
+We still have integer and decimal as ints, but we can use cast again and bring them down to bytes (in C char is a 8-bit integer, which is effectively a byte, implementation varies with other languages).
+
+Now on device B's side, we need to combine those two bytes back to retrieve our original double. The answer is probably easy, since we can divide the decimal part by 100 and add that to the integer part, like so:
+
+double result = integer + decimal / 100;
+
+Since 100 is already an int, decimal / 100 would be an int. Adding integer to an int would make the result an int. With result being a double, automatic casting takes place.
+
