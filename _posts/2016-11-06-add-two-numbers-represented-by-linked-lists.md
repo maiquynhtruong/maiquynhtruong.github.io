@@ -1,7 +1,3 @@
----
-layout: post
-title: Add two number represented by two linked lists 
----
 
 I found the problem at this <a href="http://www.geeksforgeeks.org/sum-of-two-linked-lists/">link</a>.
 

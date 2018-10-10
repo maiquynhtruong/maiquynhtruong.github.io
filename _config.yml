@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" #"default", "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Mai Truong"
 title_separator          : "-"
 name                     : "Mai Truong"
 description              : "Just another website on the wild web, about me :)"
@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Mai Truong"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : https://avatars1.githubusercontent.com/u/10360577?s=460&v=4 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A CompSci student, graduating soon"
   location         : "Cincinnati, Ohio"
   email            :
@@ -277,6 +277,12 @@ compress_html:
 
 # Defaults
 defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
   # _posts
   - scope:
       path: ""

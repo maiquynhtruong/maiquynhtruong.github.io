@@ -1,0 +1,11 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Blog"
+    url: /blog/
+  - title: "Projects"
+    url: /projects/
+  - title: "Work"
+    url: /work/
+  - title: "Contact"
+    url: /contact/
