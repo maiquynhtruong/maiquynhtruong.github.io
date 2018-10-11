@@ -5,9 +5,12 @@ main:
   - title: "Blog"
     url: /blog/
     description: "Some blog posts"
-  - title: "Projects"
+  - title: "Code"
     url: /projects/
-    description: "Side projects"
+    description: "Side programming projects"
+  - title: "Design"
+    url: /design/
+    description: "Graphic Design projects"
   - title: "Work"
     url: /work/
     description: "Work experience"
