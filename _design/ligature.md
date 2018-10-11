@@ -6,7 +6,7 @@ header:
   overlay_image: assets/images/ligature-header.jpg
   teaser: assets/images/ligature-header.jpg
 intro:
-  - excerpt: 'Using a few letters, combine them in a way that they form a picture. I asked my friends to give their opinions on the designs. Here is the result:'
+  - excerpt: 'Using a few letters and Illustrator, combine them in a way that they form a picture. I asked my friends to give their opinions on the designs. Here is the result:'
 feature_row1:
   - image_path: assets/images/ligature-colors.jpg
     alt: "Ligature with colors"
