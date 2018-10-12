@@ -1,10 +1,10 @@
 main:
-  - title: "About"
+  - title: "I am"
     url: /
     description: "About Me"
   - title: "Blog"
     url: /blog/
-    description: "Some blog posts"
+    description: "Blog posts"
   - title: "Code"
     url: /projects/
     description: "Side programming projects"
