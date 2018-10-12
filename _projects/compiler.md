@@ -9,16 +9,6 @@ sidebar:
     text: "[compiler](https://github.com/maiquynhtruong/compilers)"
   - title: "Languages and Technology"
     text: "C, Compiler Theory, LLVM"
-gallery:
-  - url: /assets/images/computer-screen-code.jpg
-    image_path: assets/images/computer-screen-code.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/computer-screen-code.jpg
-    image_path: assets/images/computer-screen-code.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/computer-screen-code.jpg
-    image_path: assets/images/computer-screen-code.jpg
-    alt: "placeholder image 3"
 ---
 
 ## Architecture and documentation
@@ -40,5 +30,3 @@ This compiler compiles a made-up language. The file `projectLanguageDescription.
 * **Runtime**: To be implemented. However, the compiler can still with `lli` tool.
 
 **Future goals:** After this project, I'm hoping to learn more about compiler optimization.
-
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
