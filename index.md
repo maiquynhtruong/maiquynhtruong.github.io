@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+excerpt: "A small little corner on the Wild Web about me"
 layout: home
 author_profile: true
 header:
