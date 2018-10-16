@@ -5,8 +5,8 @@ author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/work-desk.jpg
-  caption: "Photo credit: Photo by unknown on [**Unsplash**](https://unsplash.com)"
+  overlay_image: /assets/images/front-page-desk.jpg
+  caption: "Photo credit: Photo by Brooke Cagle on [**Unsplash**](https://unsplash.com)"
 ---
 
 Hello, nice to meet you! Welcome to my little corner on the Wild Web!
