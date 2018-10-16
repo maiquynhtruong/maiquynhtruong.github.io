@@ -2,8 +2,8 @@
 title: "Repeating Reminders"
 excerpt: "An app that sends notifications reminding you about healthy habits (drinking water, taking a walk, taking a break)"
 header:
-  image: /assets/images/reminders-check-list.jpg
-  teaser: /assets/images/reminders-check-list.jpg
+  image: /assets/images/code/repeating-reminders/reminders-check-list.jpg
+  teaser: /assets/images/code/repeating-reminders/reminders-check-list.jpg
   caption: "Photo credit: Photo by Glenn Carstens-Peters on [**Unsplash**](https://unsplash.com)"
 sidebar:
   - title: "Github link"

@@ -2,8 +2,8 @@
 title: "Compiler"
 excerpt: "Assignment for Compiler Design class in Spring 2018 turned personal project"
 header:
-  image: /assets/images/computer-screen-code.jpg
-  teaser: assets/images/computer-screen-code.jpg
+  image: /assets/images/code/compiler/computer-screen-code.jpg
+  teaser: assets/images/code/compiler/computer-screen-code.jpg
 sidebar:
   - title: "Github Link"
     text: "[compiler](https://github.com/maiquynhtruong/compilers)"
