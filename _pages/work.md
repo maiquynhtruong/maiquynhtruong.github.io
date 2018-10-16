@@ -5,7 +5,7 @@ permalink: /work/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/office-desks.jpg
+  overlay_image: /assets/images/overlays/office-desks.jpg
   caption: "Photo credit: Photo by Annie Spratt on [**Unsplash**](https://unsplash.com)"
 excerpt: "Places I have luckily been a part of, with even more details in my [resume](/assets/documents/UC_Resume_MaiTruong.pdf)."
 ---
