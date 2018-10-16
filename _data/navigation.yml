@@ -6,7 +6,7 @@ main:
     url: /blog/
     description: "Blog posts"
   - title: "Code"
-    url: /projects/
+    url: /code/
     description: "Side programming projects"
   - title: "Design"
     url: /design/
