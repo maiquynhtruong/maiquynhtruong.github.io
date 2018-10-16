@@ -1,7 +1,7 @@
 ---
 title: Programming Side Projects
 layout: collection
-permalink: /projects/
+permalink: /code/
 collection: projects
 entries_layout: grid
 classes: wide
