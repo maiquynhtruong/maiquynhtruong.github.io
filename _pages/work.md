@@ -12,18 +12,18 @@ excerpt: "Places I have luckily been a part of, with even more details in my [re
 
 [Resume](/assets/documents/UC_Resume_MaiTruong.pdf)
 
-## Software Intern at Swisslog
+## Software Intern at [Swisslog](https://www.swisslog.com/en-us)
 ### May 2017 - December 2017
-### Mason, OH
-
-- Develop Android mobile applications in Kotlin
-- Write technical blog posts about Google products
-- User test mobile applications
-
-## Software Intern at Atomic Robot
-### May 2018 - August 2018
 ### Mason, OH
 
 - Developed warehouse agents for the solutions
 - Created internal messages passed in the system.
 - Wrote unit tests
+
+## Software Intern at [Atomic Robot](https://atomicrobot.com/)
+### May 2018 - August 2018
+### Mason, OH
+
+- Develop Android mobile applications in Kotlin
+- Write technical blog posts about Google products
+- User test mobile applications
