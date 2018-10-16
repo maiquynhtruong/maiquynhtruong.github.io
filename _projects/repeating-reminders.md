@@ -1,30 +1,20 @@
 ---
-title: "Repeating Reminder"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+title: "Repeating Reminders"
+excerpt: "An app that sends notifications reminding you about healthy habits (drinking water, taking a walk, taking a break)"
 header:
-  image: /assets/images/expenses-money-wallet.jpg
-  teaser: /assets/images/expenses-money-wallet.jpg
+  image: /assets/images/reminders-check-list.jpg
+  teaser: /assets/images/reminders-check-list.jpg
+  caption: "Photo credit: Photo by Glenn Carstens-Peters on [**Unsplash**](https://unsplash.com)"
 sidebar:
-  - title: "Role"
-    image: http://placehold.it/350x250
-    image_alt: "logo"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
-gallery:
-  - url: /assets/images/expenses-money-wallet.jpg
-    image_path: assets/images/expenses-money-wallet.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/expenses-money-wallet.jpg
-    image_path: assets/images/expenses-money-wallet.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/expenses-money-wallet.jpg
-    image_path: assets/images/expenses-money-wallet.jpg
-    alt: "placeholder image 3"
+  - title: "Github link"
+    text: "[Repeating Reminders](https://github.com/maiquynhtruong/Repeating-Reminders)"
+  - title: "Languages and Technology"
+    text: "Java, Android"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+**Features**
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
-
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+- Add reminders with date, time repeat intervals, and color for the reminder card
+- Sends notifications to remind user
+- Swipe to delete and undo a reminder
+- Material Design user interface
