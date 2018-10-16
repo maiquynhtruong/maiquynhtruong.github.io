@@ -2,8 +2,8 @@
 title: "Expenses Saver"
 excerpt: "Tally count the number of times you have purchased and total amount of money you have spent on an item (Starbucks, Fries, etc)"
 header:
-  image: /assets/images/expenses-money-wallet.jpg
-  teaser: assets/images/expenses-money-wallet.jpg
+  image: /assets/images/code/expenses-saver/expenses-money-wallet.jpg
+  teaser: assets/images/code/expenses-saver/expenses-money-wallet.jpg
 sidebar:
   - title: "Github link"
     text: "[Expenses Saver](https://github.com/maiquynhtruong/Expenses-saver)"

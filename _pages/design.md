@@ -6,7 +6,7 @@ collection: design
 entries_layout: grid
 classes: wide
 header:
-  overlay_image: /assets/images/designer-desk.jpg
+  overlay_image: /assets/images/overlays/designer-desk.jpg
   caption: "Photo credit: Photo by Jeff Sheldon on [**Unsplash**](https://unsplash.com)"
 excerpt: "Assignment projects from my Design class"
 intro:
