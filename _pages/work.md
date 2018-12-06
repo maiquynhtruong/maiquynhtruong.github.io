@@ -16,14 +16,12 @@ excerpt: "Places I have luckily been a part of, with even more details in my [re
 ### May 2017 - December 2017
 ### Mason, OH
 
-- Developed warehouse agents for the solutions
-- Created internal messages passed in the system.
-- Wrote unit tests
+At Swisslog, I developed software running on warehouse agents for the solutions. More specifically, I helped write internal XML messages passed between host server and Swisslog controls software. I also wrote unit tests for the system.
 
 ## Software Intern at [Atomic Robot](https://atomicrobot.com/)
 ### May 2018 - August 2018
 ### Mason, OH
 
-- Develop Android mobile applications in Kotlin
-- Write technical blog posts about Google products
-- User test mobile applications
+At Atomic Robot, I developed Android mobile applications in Kotlin. One of my projects was for a pilot training business. My team and I did a UI overhaul for the app. I collaborated with designers to implement mockups into code.
+
+Besides making Android app, I also wrote technical blog posts about Google products. I did two posts on Actions on Google.
