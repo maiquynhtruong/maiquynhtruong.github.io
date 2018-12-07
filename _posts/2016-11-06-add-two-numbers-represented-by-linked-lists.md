@@ -1,4 +1,6 @@
-
+---
+layout: single
+---
 I found the problem at this <a href="http://www.geeksforgeeks.org/sum-of-two-linked-lists/">link</a>.
 
 <p>I have solved a similar problem from leetcode, but the digits in the linked lists were backwards, so it was easier since I can do regular addition starting at the beginning of the lists. </p>
